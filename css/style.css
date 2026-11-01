@@ -1,0 +1,72 @@
+body {
+    background-color: #C3C3C3;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Header Styles */
+.header-box {
+    background-color: #292A3B;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    top: 0;
+    left: 90px;
+    right: 90px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.external-links {
+    display: flex;
+    list-style-type: none;
+    margin: 20px;
+    gap: 10px;
+}
+
+.external-links a {
+    margin: 10px;
+}
+
+/* Home Section Styles */
+.home-section {
+    background-color: #292A3B;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 120px 150px 0px;
+    padding: 10px 30px 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    background-color: #C3C3C3;
+    color: #292A3B;
+    font-size: 120px;
+    border-radius: 20px;
+    padding: 80px;
+}
+
+/* About Section Styles */
