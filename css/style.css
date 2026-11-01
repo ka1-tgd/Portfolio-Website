@@ -45,10 +45,35 @@ nav {
     margin: 10px;
 }
 
+/* General Section Styles */
+.section-container {
+    position: relative;
+    background-color: #292A3B;
+    border: 2px solid #000000;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: 40px;
+    padding: 25px;
+}
+
+.section-title {
+    position: absolute;
+    top: -42px;
+    left: -2px;
+    background-color: #292A3B;
+    color: #FFFFFF;
+    border: 2px solid #000000;
+    border-bottom: none;
+    border-radius: 8px 8px 0px 0px;
+    padding: 6px 24px;
+    margin: 0;
+    font-size: 24px;
+}
+
 /* Home Section Styles */
 .home-section {
     background-color: #292A3B;
     box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.25);
+    border: 2px solid #000000;
     color: #FFFFFF;
     font-weight: bold;
     font-size: 60px;
@@ -70,3 +95,49 @@ nav {
 }
 
 /* About Section Styles */
+.about-content {
+    display: grid;
+    grid-template-columns: 2fr 0.7fr 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.about-intro {
+    background-color: #C3C3C3;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.about-interests {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.interest-card {
+    background-color: #9E9DBD;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-portrait {
+    display: flex;
+    justify-content: right;
+}
+
+.about-portrait img {
+    border: 2px solid #000000;
+    border-radius: 10px;
+    height: 377px;
+    width: 333px;
+}
