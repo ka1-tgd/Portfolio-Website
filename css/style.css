@@ -268,3 +268,20 @@ nav {
     display: flex;
     gap: 10px;
 }
+
+/* Contacts Section Styles */
+.contact-content {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-details div {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
