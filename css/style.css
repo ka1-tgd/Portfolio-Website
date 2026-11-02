@@ -202,3 +202,69 @@ nav {
     align-items: center;
     font-weight: bold;
 }
+
+/* Projects Section Styles */
+.projects-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card {
+    background-color: #C3C3C3;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-image {
+    border-radius: 10px;
+    border: 2px solid #000000;
+    height: 50%;
+    width: 50%;
+    margin-right: 0px;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-info h3 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-desc {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    background-color: #292A3B;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+    height: auto;
+}
+
+.project-skills-links {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+.project-skills-links ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
